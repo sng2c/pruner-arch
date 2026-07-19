@@ -1,0 +1,27 @@
+{
+  "name": "pruner-arch",
+  "version": "0.1.0",
+  "description": "Pruner (Pruning Architect) — a top-down backcasting skill that decomposes complex non-linear problems into symbolic relations, isolates non-linear bottlenecks as human-in-the-loop black boxes, and builds an MVP around them. Runs a 4-stage protocol ending in a human-architect approval gate. Activates on [Pruner]/pruner or 가지치기.",
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "pi-coding-agent",
+    "pruner",
+    "top-down",
+    "backcasting",
+    "architecture",
+    "symbolic",
+    "human-in-the-loop"
+  ],
+  "license": "MIT",
+  "author": "sng2c",
+  "files": [
+    "skills",
+    "README.md"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
