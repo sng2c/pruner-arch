@@ -1,6 +1,6 @@
 ---
 name: pruner-arch
-version: "0.3.0"
+version: "0.4.0"
 description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The control panel shrinks by deleting phantom controls; the surviving set is discovered — not designed. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down; conducts the dialogue in plain language, glossing each technical term in everyday words. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
 metadata:
   display-name: "Pruner (Pruning Architect)"
