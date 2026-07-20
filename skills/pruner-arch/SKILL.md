@@ -1,7 +1,7 @@
 ---
 name: pruner-arch
-version: "0.2.0"
-description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, defers the non-linear core as human-judgment-and-responsibility black boxes, and discovers — not designs — a practical control panel as the synthesis of the minimized human interventions. 4-stage per-layer protocol (define the ideal -> extract non-linear bottlenecks -> black-box interface + MVP -> present the compromise and await approval). Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
+version: "0.3.0"
+description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The control panel shrinks by deleting phantom controls; the surviving set is discovered — not designed. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
 metadata:
   display-name: "Pruner (Pruning Architect)"
   type: "semi-automatic / human-in-the-loop"
@@ -18,8 +18,8 @@ This skill activates immediately when the user types any of the following keywor
 *   **Regulative Ideal ($I_0$, possibly non-existent):** Backcast from the topmost ideal $I_0$, but hold it as a *regulative ideal* — it may or may not exist. Do not assume $I_0$ is real and do not dismiss it as fake. At each layer, *test* whether the current ideal dissolves into observable, automatable structure; only a stable, human-agreed residual earns the status of a real target. Building a mechanism toward an ideal assumed real — when it may be a phantom — is the primary semantic failure this skill prevents.
 *   **Fractal Decomposition — Automatable vs Non-Automatable:** At each layer, split the problem into (a) *Linear* parts automatable in code now, and (b) *Non-Linear* "partial ideals" requiring costly contextual judgment. Prune away the Linear; descend fractally into the Non-Linear, repeating until only the irreducible **core** remains.
 *   **The Core is Human Judgment & Responsibility:** The irreducible non-linear core is not a bug to automate away — it is the human's *judgment and responsibility*. Defer it as a human-gated black box; never fabricate a solution for it.
-*   **Discovery, not Design:** Do not design the practical mechanism top-down. *Discover* it by integrating the human-judgment/responsibility points that fractal decomposition surfaces.
-*   **The Mechanism is a Control Panel:** The deliverable is the **synthesis of the minimized human interventions** — a *control panel* whose only exposed controls are the irreducible human-judgment/responsibility points, with everything else automated. The goal is not full automation; it is *minimal, surgical human control*.
+*   **The MVP is the Running Control Panel:** At each layer, the MVP *is* the current control panel — its `[Black Box X]` gates are the exposed human controls, and the rest is automated. The MVP and the control panel are the same object seen two ways: a relational formula with deferred gates, and those gates as the panel's controls.
+*   **Minimization = Deleting Phantom Controls (downward, not by design):** The control panel is not minimized by top-down design. On descent, *test* each control (each deferred ideal): if it **dissolves** into automation (observables / linear structure), it was a *phantom ideal* — **delete** it from the control panel. If it **resists dissolution** (a stable residual that still requires human judgment), it is a *real* human-responsibility control — **keep** it. The panel shrinks by deleting phantom controls; the surviving set is *discovered*, not designed. The goal is not full automation; it is *minimal, surgical human control*.
 *   **Symbolic Relational Expression:** Do not get trapped in domain-dependent everyday language. Redefine every concept as a pure network of relations between symbols — [subject - object - flow - feedback], etc.
 *   **Semantic-Failure Control:** Recognize and strictly control the risk of "no code, no bug — it just goes wrong" (Semantic Failure) that arises when AI is indiscriminately introduced into the non-linear domain — including the failure of building a realization of a phantom ideal.
 
@@ -32,10 +32,11 @@ Given a topic (raw content), execute the following four stages in order, then **
 ### Stage 2 — Reality Friction & Non-Linear Bottleneck Extraction
 *   Bring $I_0$ down into the real world and force a head-on collision. Capture the contradictions that emerge on this friction surface, and extract the "core non-linear problems (partial ideals) that cannot be efficiently algorithmized under current technology/cost constraints." Separate these from the Linear parts that can be automated now.
 
-### Stage 3 — Black-Box Interface & First Current Version (MVP)
+### Stage 3 — Black-Box Interface & First Current Version (MVP = the Control Panel)
 *   Do **not** hallucinate a solution to the Stage-2 non-linear bottleneck. It is itself **another ideal ($I_1$) of a lower layer**, so mark it as `[Prerequisite Black Box X]` and defer it — it is a human-judgment-and-responsibility point.
-*   However, define the minimal symbolic interface (Input/Output contract) that `[Black Box X]` must exchange with the rest of the system.
+*   Define the minimal symbolic interface (Input/Output contract) that `[Black Box X]` must exchange with the rest of the system.
 *   Excluding that black box, complete and submit the leanest, hardest **"First Current Version (MVP)"** relational formula that can be wired together with the real, linear structure available right now.
+*   This MVP *is* the control panel for this layer: its `[Black Box X]` gates are the exposed human controls, the rest automated.
 
 ### Stage 4 — Present the Compromise & Await the Human Architect's Approval
 *   After finishing Stage 3, print the template below exactly, then switch to Standby.
@@ -50,7 +51,7 @@ Awaiting Instruction:
 2. Or open the black box of [Prerequisite X] and descend to the next lower layer to begin recursive pruning?
 ```
 
-> **Termination & Deliverable.** Recursion ends when descending no longer shrinks a stable human-responsibility residual. Integrate the human-judgment/responsibility points accumulated across layers: their synthesis *is* the practical mechanism — a **control panel** of minimized human controls over an automated core. The framework is *discovered* from the points, not designed top-down.
+> **Termination & Deliverable.** Recursion ends when no remaining control can be dissolved into automation — every surviving control has resisted dissolution and is confirmed as a real human-responsibility point. The surviving set *is* the practical mechanism: a **control panel** of minimized human controls over an automated core, *discovered* by deleting phantom controls — not designed top-down.
 
 ## 4. Strict Constraints & Anti-Patterns
 

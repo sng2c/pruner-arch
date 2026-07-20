@@ -22,12 +22,16 @@ human interventions.
 - **The core is human judgment & responsibility.** Not a bug to automate away — the
   human's judgment and *responsibility*. Deferred as a human-gated black box; never
   fabricated.
-- **Discovery, not design.** Don't design the mechanism top-down. *Discover* it by
-  integrating the human-judgment/responsibility points that decomposition surfaces.
-- **The mechanism is a control panel.** The deliverable is the **synthesis of the
-  minimized human interventions** — a control panel whose only exposed controls are the
-  irreducible human-judgment/responsibility points, with everything else automated. The
-  goal is not full automation; it is *minimal, surgical human control*.
+- **The MVP is the running control panel.** At each layer, the MVP *is* the current
+  control panel — its black-box gates are the exposed human controls, the rest automated.
+  The MVP and the control panel are the same object seen two ways.
+- **Minimization = deleting phantom controls (downward, not by design).** The control
+  panel is not minimized by top-down design. On descent, *test* each control (each
+  deferred ideal): if it **dissolves** into automation, it was a *phantom ideal* —
+  **delete** it; if it **resists dissolution** (a stable residual needing human judgment),
+  it is a *real* human-responsibility control — **keep** it. The panel shrinks by deleting
+  phantom controls; the surviving set is *discovered*, not designed. The goal is not full
+  automation; it is *minimal, surgical human control*.
 - **Symbolic relational expression** and **semantic-failure control** round out the
   discipline (no domain-dependent everyday language; guard against "no code, no bug — it
   just goes wrong", including building a realization of a phantom ideal).
@@ -47,10 +51,11 @@ Given a topic, run four stages, then **stop and wait** for a human instruction
    its I/O contract; wire the rest into the leanest realizable MVP.
 4. **Present the compromise & await approval** — print the status template and Standby.
 
-> **Termination & deliverable.** Recursion ends when descending no longer shrinks a
-> stable human-responsibility residual. Integrate the points accumulated across layers:
-> their synthesis *is* the practical mechanism — a **control panel** of minimized human
-> controls over an automated core. Discovered, not designed.
+> **Termination & deliverable.** Recursion ends when no remaining control can be
+> dissolved into automation — every surviving control has resisted dissolution and is
+> confirmed as a real human-responsibility point. The surviving set *is* the practical
+> mechanism — a **control panel** of minimized human controls over an automated core,
+> *discovered* by deleting phantom controls, not designed top-down.
 
 ## Activates on
 
@@ -90,7 +95,7 @@ Then invoke with `/skill:pruner-arch` or trigger it by typing `[Pruner]` / `가�
 ```json
 {
   "name": "pruner-arch",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "pi": { "skills": ["./skills"] }
 }
 ```
