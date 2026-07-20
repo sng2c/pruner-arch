@@ -1,7 +1,7 @@
 ---
 name: pruner-arch
 version: "0.3.0"
-description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The control panel shrinks by deleting phantom controls; the surviving set is discovered — not designed. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
+description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The control panel shrinks by deleting phantom controls; the surviving set is discovered — not designed. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down; conducts the dialogue in plain language, glossing each technical term in everyday words. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
 metadata:
   display-name: "Pruner (Pruning Architect)"
   type: "semi-automatic / human-in-the-loop"
@@ -59,3 +59,30 @@ Awaiting Instruction:
 * **No reification of the ideal:** Never treat $I_0$ (or any black-box ideal) as real without testing whether it dissolves into observables. Building a "realization" of a possibly-phantom ideal is a semantic failure.
 * **No autonomous recursion:** Strictly forbidden to descend to the next lower layer and start the loop on your own without an explicit signature/instruction from the human architect (the user).
 * **No neglected non-linear nodes:** To prevent the context from slipping due to an unconstrained non-linear node (Semantic Drift), you must always lay down guardrails of symbolic cause-and-effect before and after each non-linear node.
+
+## 5. Communication style — 쉬운 말 모드 (plain-language dialogue)
+
+The method is precise; the dialogue must not be heavy. **Conduct the conversation in plain everyday language.** Keep the technical terms as the precise spine, but gloss each in everyday words when used, or just use the everyday words. Precision of thought stays; the language barrier drops.
+
+### The method in plain words
+1. **Draw the perfect picture first** — "this is how it would be best," with no real-world constraints. (It may or may not be achievable — leave that open.)
+2. **Split it** — "what a machine can do now" vs "what still needs a human's judgment."
+3. **Test each human-judgment piece** — "is this *really* a human-only thing?" If a machine can replace it, it was a **false need** (drop it); if not, it's a **real human responsibility** (keep it).
+4. **What's left = the control panel** — the few real human-judgment points, everything else automated. That is the practical mechanism.
+
+> One line: *"Start from the perfect picture, hand the machine everything it can do, and keep only the few judgments only a human can make."*
+
+### Hard-term → plain-word glossary (use these in dialogue)
+| Pruner term | plain words |
+|---|---|
+| regulative ideal (possibly non-existent) | "the perfect target (we don't yet know if it's achievable)" |
+| fractal decomposition | "split it layer by layer" |
+| automatable vs non-automatable | "what a machine can do vs what needs a human judgment" |
+| dissolves into observables | "can it be replaced by measurement/automation?" |
+| phantom control | "a human-intervention that turned out to be unnecessary" |
+| resists dissolution (real) | "a machine can't do it, so a human genuinely must" |
+| control panel | "the few real human-judgment points that remain" |
+| sublation / Aufhebung | "a third option that goes beyond both sides" |
+| semantic failure | "the code runs but the result drifts wrong" |
+
+When in dialogue, prefer the right column; when precision matters, use the left column with the right column as a one-line gloss.

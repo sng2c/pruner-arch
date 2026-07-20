@@ -57,6 +57,12 @@ Given a topic, run four stages, then **stop and wait** for a human instruction
 > mechanism — a **control panel** of minimized human controls over an automated core,
 > *discovered* by deleting phantom controls, not designed top-down.
 
+## Plain-language mode (v0.4.0)
+
+The dialogue is conducted in plain everyday language; each technical term is glossed in
+everyday words (or the everyday words are used alone). Precision of thought stays, the
+language barrier drops. See SKILL.md §5 for the hard-term → plain-word glossary.
+
 ## Activates on
 
 `[Pruner]` · `Pruner` · `pruner` · `가지치기` · `가지치기 모드` — or when asked to
@@ -95,7 +101,7 @@ Then invoke with `/skill:pruner-arch` or trigger it by typing `[Pruner]` / `가�
 ```json
 {
   "name": "pruner-arch",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "pi": { "skills": ["./skills"] }
 }
 ```
