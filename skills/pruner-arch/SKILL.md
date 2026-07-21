@@ -1,10 +1,10 @@
 ---
 name: pruner-arch
 version: "0.5.0"
-description: "Pruner (Pruning Architect): a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes the problem into automatable (linear) vs non-automatable (non-linear) parts, and recurses downward to the fixed point — no remaining black box can be dissolved; every survivor resists, so re-opening it is idempotent. At each layer it tests each deferred control: dissolves into automation = phantom ideal (delete); resists = real human-judgment-and-responsibility control (keep). It keeps a per-layer Layer Log and, at the fixed point, emits a Final Architecture Report: the discovered control panel of minimized human controls over an automated core, the deleted phantoms, and the per-layer trace. The human authorizes the full descent via the trigger and confirms the fixed point in post-run review. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down; conducts the dialogue in plain language, glossing each technical term in everyday words. Display name: Pruner (Pruning Architect); type: semi-automatic / human-in-the-loop."
+description: "Top-down backcasting skill: design a complex problem from its ideal down to a fixed point, splitting each layer into automatable vs human-judgment parts and keeping only the controls that resist automation. Run-to-completion on trigger; the human confirms the result in post-run review. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Plain-language dialogue."
 metadata:
   display-name: "Pruner (Pruning Architect)"
-  type: "semi-automatic / human-in-the-loop"
+  type: "automatic with a post-run human confirmation gate"
 ---
 
 # Skill: Pruner (Pruning Architect)
