@@ -1,7 +1,7 @@
 {
   "name": "pruner-arch",
-  "version": "0.4.0",
-  "description": "Pruner (Pruning Architect) — a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes a problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The control panel shrinks by deleting phantom controls; the surviving set is discovered, not designed. Conducts the dialogue in plain language, glossing each technical term in everyday words. Activates on [Pruner]/pruner or 가지치기.",
+  "version": "0.5.0",
+  "description": "Pruner (Pruning Architect) — a top-down backcasting skill that designs toward a possibly-non-existent regulative ideal, fractally decomposes a problem into automatable (linear) vs non-automatable (non-linear) parts, and treats each layer's MVP as the running control panel. Minimization is downward: on descent, dissolve each control into automation; a control that dissolves was a phantom ideal (delete it); a control that resists is a real human-judgment-and-responsibility point (keep it). The skill recurses downward to the fixed point (no remaining black box dissolves; every survivor resists, re-opening is idempotent), keeps a per-layer Layer Log, and emits a Final Architecture Report; the human authorizes the full descent via the trigger and confirms the fixed point in post-run review. The control panel shrinks by deleting phantom controls; the surviving set is discovered, not designed. Conducts the dialogue in plain language, glossing each technical term in everyday words. Activates on [Pruner]/pruner or 가지치기.",
   "keywords": [
     "pi-package",
     "pi-skill",
@@ -11,7 +11,8 @@
     "backcasting",
     "architecture",
     "symbolic",
-    "human-in-the-loop"
+    "human-in-the-loop",
+    "fixed-point"
   ],
   "license": "MIT",
   "author": "sng2c",
