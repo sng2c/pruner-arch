@@ -48,10 +48,10 @@ The trigger + topic authorizes a full descent. Initialize a running **Layer Log*
     *   If it sheds Linear parts that automate away → it (partly) **dissolves** → it was a **phantom**: **delete** it from the control panel and record what automated it. If a smaller residual black box remains and is still openable, keep descending that branch.
     *   If re-opening is **idempotent** — the sub-panel recombines to the same non-linear core; opening changed nothing semantically → it **resists dissolution** → it is a **real** human-responsibility control: **keep** it and stop descending that branch.
     *   The verdict must come from an *actual* open-and-test against real linear structure, never from a failure of imagination (see §4 "No fabricated fixed point").
-*   **Record this layer** in the Layer Log using the entry format below.
+*   **Emit this layer's log entry** (the running per-layer report) using the format below, and append it to the Layer Log.
 *   **Branch:** if any *kept* black box is still openable, descend into the next one ($n \mathrel{+}= 1$) and loop back to Stage 1. If no openable black box remains — every survivor resisted (fixed point) — go to **Termination**.
 
-#### Layer Log entry (append one per visited layer)
+#### Layer Log entry (emit one per visited layer)
 ```text
 **Layer n — ideal I_n**
 - I_n (symbolic relation): …
@@ -65,7 +65,7 @@ The trigger + topic authorizes a full descent. Initialize a running **Layer Log*
 ```
 
 ### Termination & Final Architecture Report
-When the fixed point is reached — no remaining black box can be dissolved; every surviving control resisted; re-opening is idempotent — emit the **Final Architecture Report** below, then stop and await the human's review/confirmation.
+When the fixed point is reached — no remaining black box can be dissolved; every surviving control resisted; re-opening is idempotent — emit the **Final Architecture Report** below, which **guides the overall architecture**, then stop and await the human's review/confirmation.
 
 ```text
 ---

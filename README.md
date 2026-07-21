@@ -57,9 +57,9 @@ descending into black boxes depth-first, until the fixed point:
    this layer).
 4. **Dissolve/resist test, record, then descend or finalize** — open each black box and
    re-run Stages 1–3 on it: if it sheds Linear parts it was a **phantom** (delete); if
-   re-opening is **idempotent** it **resists** (keep, real control). Append the layer to
-   the Layer Log. If any kept box is still openable, descend and loop; else the fixed
-   point is reached.
+   re-opening is **idempotent** it **resists** (keep, real control). **Emit the layer's log
+   entry** (running per-layer report). If any kept box is still openable, descend and loop;
+   else the fixed point is reached.
 
 > **Termination & deliverable.** Recursion ends at the fixed point — no remaining control
 > can be dissolved; every survivor resisted, re-opening is idempotent. The surviving set
