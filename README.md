@@ -8,7 +8,12 @@ decomposes a problem into **deterministic functional mappings $y=f(x)$** vs
 **intelligence-gated** black boxes, and **discovers — not designs — a control panel**
 as the synthesis of the minimized intelligence controls. An **a-priori antinomy check**
 marks ideals *regulative-by-structure* — hold both poles as limits, never collapse to
-either. $f(x)$ is **a priori** (deterministic, unrevisable within a fixed rule set);
+either. **Conflicting requirements are resolved by dialectic synthesis** — strip the
+rigid form (Auto vs Manual) to keep each side's *essential value*, then reconstruct as
+a **semi-automated** mechanism (**Auto → Semi-auto**: insert an intelligence gate when
+total automation threatens integrity; **Manual → Semi-auto**: push deterministic toil
+into $f(x)$, retain the human only for contextual judgment). $f(x)$ is **a priori**
+(deterministic, unrevisable within a fixed rule set);
 $\hat f(x)$ is **a posteriori** (learned, revisable, drift-prone); the rule/parameter
 choice is itself a posteriori governance. It **recurses downward to the fixed point**
 (no remaining black box reduces to $y=f(x)$; every survivor resists — empirically
@@ -24,12 +29,19 @@ descent via the trigger and confirms the fixed point in post-run review.
   functional structures; only a stable, intelligence-agreed residual is a real target.
   Building toward an ideal assumed real — when it may be a phantom — is the primary
   semantic failure this skill prevents.
-- **Antinomy test — regulative by structure (a priori).** Before treating an ideal as
-  constitutive, test whether *both* a thesis and its contradiction follow from it. If
-  so, the ideal is *regulative by structure* — not by failed empirical attempt. Hold
-  both poles as regulative limits of approach; do not collapse the architecture to
-  either pole. An a-priori resist signal that **augments** (never replaces) the
-  empirical idempotence test.
+- **Antinomy test & dialectic reconstruction (변증법적 본질 분해 및 재구성).** When
+  requirements or ideals collide (Thesis vs Antithesis), don't compromise by deleting
+  functionality or forcing a binary pick. (1) **Strip rigid forms** — separate each
+  requirement's *essential value* from its implementation form ("100% automated" vs
+  "fully manual"). (2) **Dialectic vector shifts** — **Auto → Semi-auto**: when total
+  automation threatens system integrity or hits non-linear entropy, drop the illusion
+  of 100% auto and insert a precision intelligence gate ($I_{intel}$); **Manual →
+  Semi-auto**: when manual processes cause fatigue/error, strip deterministic toil into
+  $y=f(x)$ and retain the human only for contextual judgment and accountability. (3)
+  **Regulative limit** — if constitutive realization still forces a contradiction,
+  record the antinomy (thesis/antithesis), hold both poles as regulative limits, and
+  route the residual into a semi-automated control panel. An a-priori resist signal
+  that **augments** (never replaces) the empirical idempotence test.
 - **Fractal decomposition.** At each layer, split into *Deterministic* ($y=f(x)$, a
   priori, automatable now, same input ⇒ same output) vs *Contextual Intelligence* nodes
   (high-entropy, non-linear domains). Prune the Deterministic; descend fractally into
@@ -62,13 +74,18 @@ Given a topic, the trigger authorizes a **full descent to the fixed point**. The
 keeps a **Layer Log** and runs the 4-stage protocol once per layer ($n = 0, 1, 2, \dots$),
 descending into black boxes depth-first, until the fixed point:
 
-1. **Define the regulative ideal ($I_n$) & antinomy test** — suspend all real-world
-   constraints; define the ideal as a symbolic relation; hold it as *possibly
-   non-existent*. Then the **a-priori antinomy test**: does treating $I_n$ as
-   constitutive force both a thesis and its contradiction? If so, $I_n$ is
-   regulative-by-structure — record thesis/antithesis, hold both poles as limits.
-2. **Reality friction & functional boundary extraction** — collide $I_n$ with reality;
-   extract the non-linear bottlenecks that cannot be mapped to deterministic $y=f(x)$;
+1. **Define the regulative ideal ($I_n$), antinomy test & dialectic synthesis** —
+   suspend all real-world constraints; define the ideal as a symbolic relation; hold it
+   as *possibly non-existent*. Then the **requirement-collision & antinomy test**: does
+   $I_n$ contain internal collisions or opposing requirements ($T \leftrightarrow A$)?
+   If so, execute **dialectic breakdown** — strip the execution form (Auto vs Manual) to
+   isolate each side's *essential value*, then reconstruct into a **semi-automated
+   synthesis** (map repetitive toil to $f(x)$/$\hat f(x)$, channel core judgment to a
+   `[Contextual Intelligence Gate]`); if constitutive realization still forces a
+   contradiction, record thesis/antithesis and hold both poles as regulative limits.
+2. **Reality friction & functional boundary extraction** — collide $I_n$ (and its
+   dialectic synthesis) with reality; extract the non-linear bottlenecks that cannot be
+   mapped to deterministic $y=f(x)$;
    separate from the automatable parts, distinguishing a-priori $f(x)$ from a-posteriori
    $\hat f(x)$ (learned/probabilistic, revisable, own drift risk).
 3. **Black-box interface + MVP** — defer the non-linear bottleneck as
@@ -91,7 +108,7 @@ descending into black boxes depth-first, until the fixed point:
 > Report** with the full per-layer trace, for the supervising intelligence to confirm in
 > post-run review.
 
-## Plain-language mode (v0.7.0)
+## Plain-language mode (v0.8.0)
 
 The dialogue is conducted in plain everyday language (쉬운 말 모드); each technical term
 is glossed in everyday words (or the everyday words are used alone). Precision of
@@ -147,7 +164,7 @@ Then invoke with `/skill:pruner-arch` or trigger it by typing `[Pruner]` / `가�
 ```json
 {
   "name": "pruner-arch",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "pi": { "skills": ["./skills"] }
 }
 ```
