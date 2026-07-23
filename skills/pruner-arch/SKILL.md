@@ -1,7 +1,7 @@
 ---
 name: pruner-arch
-version: "0.8.0"
-description: "Top-down backcasting skill: design a complex problem from its ideal down to a fixed point, decomposing each layer into deterministic functional mappings y=f(x) vs contextual intelligence nodes, keeping only the irreducible control gates. Resolves conflicting requirements via dialectic synthesis (stripping forms to preserve core values into semi-automated/intelligence-gated mechanisms: Auto->Semi-auto or Manual->Semi-auto). A priori antinomy check marks ideals regulative-by-structure; f(x) is a priori (unrevisable), f̂(x) is a posteriori (revisable, drift-prone). Run-to-completion on trigger; the supervising intelligence confirms the result in post-run review. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Plain-language dialogue."
+version: "0.8.1"
+description: "Top-down backcasting skill: design a complex problem from its ideal down to a fixed point to minimize cognitive load via control panel diet, decomposing each layer into deterministic functional mappings y=f(x) vs contextual intelligence nodes, keeping only the irreducible control gates. Resolves conflicting requirements via dialectic synthesis (stripping forms to preserve core values into semi-automated/intelligence-gated mechanisms: Auto->Semi-auto or Manual->Semi-auto). A priori antinomy check marks ideals regulative-by-structure; f(x) is a priori (unrevisable), f̂(x) is a posteriori (revisable, drift-prone). Run-to-completion on trigger; the supervising intelligence confirms the result in post-run review. Activates on [Pruner]/Pruner/pruner or 가지치기/가지치기 모드, or when asked to design a complex problem top-down. Plain-language dialogue."
 metadata:
   display-name: "Pruner (Pruning Architect)"
   type: "automatic with a post-run confirmation gate"
@@ -31,7 +31,7 @@ This skill activates immediately when the user types any of the following keywor
     Prune away the Deterministic; descend fractally into the Intelligence Nodes, repeating until only the irreducible **core** remains. A learned or probabilistic approximation $\hat f(x)$ is **a posteriori** — dependent on data, revisable by new experience; its "drift" *is* the revisability of the empirical. It is **not** a deterministic $f(x)$ — file it as a **semi-automated** node with its own drift risk, or it will smuggle intelligence back into the "deterministic core."
 *   **The Core is Contextual Intelligence & Responsibility:** The irreducible non-functional core is not a defect to be eliminated — it is the domain of *Contextual Intelligence* (whether Human, AGI, or Agentic System). Defer it as an intelligence-gated black box; never fabricate a dummy function for it.
 *   **The MVP is the Running Control Panel:** At each layer, the MVP *is* the current control panel — its `[Black Box X]` gates are the exposed intelligence controls, and the rest is automated via deterministic functional mappings $f(x)$ or semi-automated $\hat f(x)$. The MVP and the control panel are the same object seen two ways.
-*   **Minimization = Deleting Phantom Controls (downward, not by design):** On descent, *test* each control (each deferred ideal): if it **dissolves** into explicit functional mappings $f(x)$ (or a semi-automated $\hat f(x)$), it was a *phantom ideal* — **delete** it from the control panel. If it **resists dissolution** (a stable residual that still requires contextual intelligence), it is a *real* intelligence-control gate — **keep** it. The panel shrinks by deleting phantom controls; the surviving set is *discovered*, not designed. The goal is not full automation; it is *minimal, surgical intelligence control*.
+*   **Minimization = Control Panel Diet & Cognitive Load Reduction:** On descent, *test* each control (each deferred ideal): if it **dissolves** into explicit functional mappings $f(x)$ (or a semi-automated $\hat f(x)$), it was a *phantom ideal/control* — **delete** it from the control panel. If it **resists dissolution** (a stable residual that still requires contextual intelligence), it is a *real* intelligence-control gate — **keep** it. The true goal of "Control Panel Diet" is **cognitive load minimization**: eliminating mental friction, unnecessary monitoring fatigue, and phantom switches so that human/AGI intelligence can concentrate 100% of its capacity on critical contextual judgment and accountability. The panel shrinks by deleting phantom controls; the surviving set is *discovered*, not designed. The goal is not full automation; it is *minimal, surgical intelligence control*.
 *   **Descent to the Fixed Point (auto-recursion):** Recurse downward through layers until the **fixed point**: no remaining black box can be reduced to $y = f(x)$ — every surviving control has resisted, so re-opening it is **idempotent** (it yields the same control back; opening changed nothing semantically). Phantoms are deleted along the way; the surviving set is *discovered* at the fixed point.
 *   **Provisional Verdicts & Post-Run Confirmation:** The AI's dissolve/resist verdict at each node is **provisional** — whether empirical (idempotence) or a priori (antinomy). "Is this really irreducible to $y = f(x)$?" is itself a contextual judgment — the fixed-point detector is itself a control in the panel — so the supervising intelligence **confirms** the fixed point in the Final Architecture Report review. A verdict must come from an *actual* open-and-test (and, for antinomy/synthesis, an actual derivation), never from "I can't imagine how to formulate $f(x)$."
 *   **Symbolic Relational Expression:** Redefine every concept as a pure network of relations between symbols — [subject - object - flow - feedback - state space], etc.
@@ -128,10 +128,10 @@ Keep technical terms as the precise structural spine, but use everyday equivalen
 2. **충돌하는 요구사항의 껍데기 벗기기(변증법)** — 요구사항끼리 부딪히면(예: "완전 자동화" vs "사람의 정밀 통제") 둘 중 하나를 버리지 않는다. "진짜 챙기려는 본질 가치"만 남긴 뒤, **자동 $\rightarrow$ 반자동**(기계의 폭주 방지) 또는 **수동 $\rightarrow$ 반자동**(사람의 단순 노동 제거)으로 쪼개어 지능 제어점(Control Gate)을 만든다.
 3. **모순인지 확인(선험 검사)** — 이 이상을 스펙으로 무리하게 잡으면 정답과 반답이 둘 다 도출되는가? 그렇다면 애초에 "다가가는 목표"지 "통째로 만들 수 있는 물건"이 아니다. 양쪽 극을 한계로 두고 그 사이에서 반자동 제어반을 세운다.
 4. **둘로 갈라** — "지금 기계가 공식으로 딱 해내는 것(선험·안 바뀜)" vs "데이터나 맥락을 읽고 지능이 판단해야 하는 것(반자동/수동)".
-5. **바뀌지 않을 때까지 내려간다** — "지능이 필요하다"고 둔 칸을 하나씩 열어 다시 둘로 갈라. 기계 일로 줄어들면 **가짜 필요**(버린다); 다시 같은 게 돌아오면 **진짜 지능 책임**(둔다).
-6. **가면서 다 적고 최종 보고** — 층마다 한 장씩 기록하고, 마지막엔 살아남은 지능 판단점(제어반)과 자동화된 계산 엔진, 버린 가짜 제어점을 요약해서 돌려준다.
+5. **제어반 다이어트와 고정점 도달** — "지능이 필요하다"고 둔 칸을 하나씩 열어 다시 둘로 갈라. 기계 일로 줄어들면 **가짜 필요**(제어반에서 떼어냄); 다시 같은 게 돌아오면 **진짜 지능 책임**(제어반에 남김).
+6. **인지부하 최소화와 최종 보고** — 시스템 고도화란 제어반에 버튼을 계속 늘리는 게 아니라, 안 눌러도 되는 가짜 버튼(Phantom)을 깨끗이 다이어트하여 **운영자/지능의 인지부하(Cognitive Load)를 최소화**하는 것입니다. 층마다 기록하고, 살아남은 핵심 판단 레버와 계산 엔진을 요약해서 보고합니다.
 
-> 한 줄: *"완벽한 그림에서 출발해 요구사항의 충돌을 본질만 남겨 반자동으로 재구성하고, 기계가 할 일은 다 넘기며, 상자를 열어도 안 변할 때까지 내려가 지능의 핵심 판단만 남긴 뒤 보고한다."*
+> 한 줄: *"완벽한 그림에서 출발해 요구사항의 충돌을 본질만 남겨 반자동으로 재구성하고, 계산 노동은 기계로 완전히 비워내어 지능의 인지부하를 극도로 다이어트한 최적의 제어반을 발견해 보고한다."*
 
 ### Hard-term → plain-word glossary
 | Pruner term | plain words |
@@ -144,6 +144,7 @@ Keep technical terms as the precise structural spine, but use everyday equivalen
 | deterministic mapping ($y = f(x)$), a priori | "경험 없이도 확정되는 계산 영역 — 논리/수학, 경험으로 안 바뀜 (같은 입력엔 항상 같은 결과)" |
 | semi-automated approximation ($\hat f(x)$), a posteriori | "데이터로 배워 경험으로 바뀌는 반자동 영역 — 흔들림이 곧 경험적 지식의 성질, f(x)가 아님" |
 | contextual intelligence node | "맥락을 읽고 상황에 맞춰 지능이 판단해야 하는 영역" |
+| control panel diet / cognitive load reduction | "안 눌러도 될 가짜 버튼을 떼어내어 운영자의 뇌 피로와 인지부하를 최대로 다이어트하는 작업" |
 | dissolves into $f(x)$ | "공식이나 규칙으로 바꿔서 자동으로 돌릴 수 있는가?" |
 | phantom control | "알고 보니 지능을 쓸 필요가 없었던 가짜 제어점" |
 | resists dissolution (real) | "공식화가 불가능해서 지능의 판단이 반드시 필요한 진짜 제어점" |
